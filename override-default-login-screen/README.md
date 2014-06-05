@@ -6,4 +6,4 @@
 2. Copy the Default.html file to your package and adjust the CSS path and make it look like you wan't it to
 
 ## Example
-![Login screen example](assets/custom-login-screen.png)
+![Login screen example](assets/custom-neos-login.png)
