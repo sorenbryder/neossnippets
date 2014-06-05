@@ -1,0 +1,5 @@
+-
+  requestFilter: 'isPackage("TYPO3.Neos") && isController("Login")'
+  options:
+    layoutRootPaths:
+      'TYPO3.Neos': 'resource://Vendor.Namespace/Private/Layouts/Login'
