@@ -1,0 +1,35 @@
+'Bryder.Events:Event':
+  superTypes: ['TYPO3.Neos:Document']
+  ui:
+    label: 'Event'
+    icon: 'icon-file'
+    inspector:
+      groups:
+        event:
+          label: 'Event'
+          position: 10
+  childNodes:
+    main:
+      type: 'TYPO3.Neos:ContentCollection'
+  properties:
+    date:
+      type: date
+      ui:
+        label: 'Event date'
+        inspector:
+          editorOptions:
+            format: 'dd-mm-yyyy h:ii'
+          group: 'event'
+          position: 10
+      validation:
+        'TYPO3.Neos/Validation/DateTimeValidator': []
+    teaser:
+      type: string
+      defaultValue: 'Insert event teaser'
+      ui:
+        inlineEditable: TRUE
+    location:
+      type: string
+      defaultValue: 'Insert location'
+      ui:
+        inlineEditable: TRUE
